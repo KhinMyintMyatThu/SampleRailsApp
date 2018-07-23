@@ -1,5 +1,6 @@
 class UsersController < ApplicationController
   def show
+<<<<<<< HEAD
    @user = User.find(params[:id])
    #debugger
  end
@@ -17,6 +18,13 @@ class UsersController < ApplicationController
     else
       render 'new'
     end
+=======
+    @user=User.find(params[:id])
+    #debugger
+  end
+
+  def new
+>>>>>>> signup
   end
 
   private
