@@ -1,6 +1,5 @@
 class UsersController < ApplicationController
   def show
-<<<<<<< HEAD
    @user = User.find(params[:id])
    #debugger
  end
