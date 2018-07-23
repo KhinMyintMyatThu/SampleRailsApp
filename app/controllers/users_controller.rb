@@ -17,13 +17,6 @@ class UsersController < ApplicationController
     else
       render 'new'
     end
-=======
-    @user=User.find(params[:id])
-    #debugger
-  end
-
-  def new
->>>>>>> signup
   end
 
   private
